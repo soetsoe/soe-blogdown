@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Soethiha Soe</title>
+    <link>/blog/</link>
+    <description>Recent content in Blog on Soethiha Soe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nathans Hot Dog Eating Contest</title>
+      <link>/blog/nathans-hot-dog-eating-contest/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/nathans-hot-dog-eating-contest/</guid>
+      <description>Overview In this exercise we plot the number of hot-dogs and buns (HDB) eaten by the winner of Nathan&amp;rsquo;s Hot Dog Eating Contest for each year of competition. The dataset &amp;lsquo;Hot Dog Contest with Affiliation&amp;rsquo; contains the records of Nathan&amp;rsquo;s Hot Dog Eating Contest results from 1981 to 2017. Each data entry contains the year of the contest, name of the winning contestant, and number of HDB consumed total and per minute by the winner.</description>
+    </item>
+    
+    <item>
+      <title>Life Expectancy by Continent</title>
+      <link>/blog/life-expectancy-by-continent/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/life-expectancy-by-continent/</guid>
+      <description>Overview The data used in this visualization is a subset of the Gapminder Dataset on world facts that can be used to examine social, political, and economic indicators. In this exercise we plot the life expectancy distribution for each continent.
+The R code below creates a table and plot of life expectancy distribution. We used the aggregate function to subsample the dataset and generate summary statistics. The summary statistics were then combined to create a single table tabulating the statisitics by continent.</description>
+    </item>
+    
+    <item>
+      <title>Children and Animal Sounds</title>
+      <link>/blog/children-and-animal-sounds/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/children-and-animal-sounds/</guid>
+      <description>Overview The dataset &amp;lsquo;Animal Sounds Summary&amp;rsquo; contains the results of a study that examined how well children in different age groups can understand or reproduce an animal sound. Three animal sounds were used in the study: &amp;ldquo;cockadoodledoo&amp;rdquo;, &amp;ldquo;meow&amp;rdquo;, and &amp;ldquo;woof woof&amp;rdquo;. More than 2000 children between the ages 8 through 18 participated in the study that documented the proportion of the children (by age group) that can either understand or reproduce each of the animal sounds.</description>
+    </item>
+    
+    <item>
+      <title>Public Spending on Education and GDP in Africa</title>
+      <link>/blog/public-spending-on-education-and-gdp-in-africa/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/public-spending-on-education-and-gdp-in-africa/</guid>
+      <description>Overview The data used in this visualization is a subset of the Africa Developer Indicator dataset collected by the World Bank, compiled from officially recognized international sources. With this dataset, we examined the trends in public spending on education and GDP per capita for African nations between the years 1970 and 2012. Before importing the data into R, the original dataset was filtered to only include entries that contain records of both public spending on education and GDP per capita for a given country and year.</description>
+    </item>
+    
+  </channel>
+</rss>

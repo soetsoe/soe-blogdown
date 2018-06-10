@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Soethiha Soe</title>
+    <link>/</link>
+    <description>Recent content on Soethiha Soe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>I am part of a research and development team at Intel Corporation specializing in machine learning and computer vision. As a platform architect, I help define and build next generation hardware-software solutions to improve user experience and utility of personal computing devices.
+I received a BS in Electrical Engineering from Oregon State University, and expect to receive a MS in Computer Science &amp;amp; Engineering from Oregon Health Science University in 2019.</description>
+    </item>
+    
+    <item>
+      <title>Nathans Hot Dog Eating Contest</title>
+      <link>/blog/nathans-hot-dog-eating-contest/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/nathans-hot-dog-eating-contest/</guid>
+      <description>Overview In this exercise we plot the number of hot-dogs and buns (HDB) eaten by the winner of Nathan&amp;rsquo;s Hot Dog Eating Contest for each year of competition. The dataset &amp;lsquo;Hot Dog Contest with Affiliation&amp;rsquo; contains the records of Nathan&amp;rsquo;s Hot Dog Eating Contest results from 1981 to 2017. Each data entry contains the year of the contest, name of the winning contestant, and number of HDB consumed total and per minute by the winner.</description>
+    </item>
+    
+    <item>
+      <title>Life Expectancy by Continent</title>
+      <link>/blog/life-expectancy-by-continent/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/life-expectancy-by-continent/</guid>
+      <description>Overview The data used in this visualization is a subset of the Gapminder Dataset on world facts that can be used to examine social, political, and economic indicators. In this exercise we plot the life expectancy distribution for each continent.
+The R code below creates a table and plot of life expectancy distribution. We used the aggregate function to subsample the dataset and generate summary statistics. The summary statistics were then combined to create a single table tabulating the statisitics by continent.</description>
+    </item>
+    
+    <item>
+      <title>Children and Animal Sounds</title>
+      <link>/blog/children-and-animal-sounds/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/children-and-animal-sounds/</guid>
+      <description>Overview The dataset &amp;lsquo;Animal Sounds Summary&amp;rsquo; contains the results of a study that examined how well children in different age groups can understand or reproduce an animal sound. Three animal sounds were used in the study: &amp;ldquo;cockadoodledoo&amp;rdquo;, &amp;ldquo;meow&amp;rdquo;, and &amp;ldquo;woof woof&amp;rdquo;. More than 2000 children between the ages 8 through 18 participated in the study that documented the proportion of the children (by age group) that can either understand or reproduce each of the animal sounds.</description>
+    </item>
+    
+    <item>
+      <title>Public Spending on Education and GDP in Africa</title>
+      <link>/blog/public-spending-on-education-and-gdp-in-africa/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/public-spending-on-education-and-gdp-in-africa/</guid>
+      <description>Overview The data used in this visualization is a subset of the Africa Developer Indicator dataset collected by the World Bank, compiled from officially recognized international sources. With this dataset, we examined the trends in public spending on education and GDP per capita for African nations between the years 1970 and 2012. Before importing the data into R, the original dataset was filtered to only include entries that contain records of both public spending on education and GDP per capita for a given country and year.</description>
+    </item>
+    
+    <item>
+      <title>A small project example : add yours !</title>
+      <link>/projects/small-project/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/small-project/</guid>
+      <description>Along with Ford Prefect, Dent barely escapes the Earth&amp;rsquo;s destruction as it is demolished to make way for a hyperspace bypass. Arthur spends the next several years, still wearing his dressing gown, helplessly launched from crisis to crisis while trying to straighten out his lifestyle.
+ He rather enjoys tea, but seems to have trouble obtaining it in the far reaches of the galaxy.
+ In time, he learns how to fly and carves a niche for himself as a sandwich-maker.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/projects/projects/</link>
+      <pubDate>Wed, 19 Aug 2015 20:29:37 -0700</pubDate>
+      
+      <guid>/projects/projects/</guid>
+      <description>In this theme, it is possible to add sections like a Projects one for example. You can add plenty of articles about your projects and a presentation page that will be displayed before the list. All is modulable, if you don&amp;rsquo;t want something.
+A Hollywood-funded film version, produced and filmed in the UK, was released in April 2005, and radio adaptations of the third, fourth, and fifth novels were broadcast from 2004 to 2005.</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/</guid>
+      <description>My name is Soethiha Soe. I work in the electronis industry as a system architect specializing in machine learning and embedded vision applications. I am interested in technologies and innovations that can help more people obtain economic empowerment as well as increased access to education and health care.
+Here are my recent posts on experimentation with data visualization that I hope you will enjoy:</description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/license/</guid>
+      <description>You can use this page to put a license on the contents of your blog, like so:
+ The MIT License (MIT)
+Copyright &amp;copy; 2015 Nishanth Shanmughamnishanth.gerrard@gmail.com
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</description>
+    </item>
+    
+  </channel>
+</rss>
