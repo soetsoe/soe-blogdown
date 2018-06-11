@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Cross-border Funding for Financial Inclusion Projects</title>
+    <title>Funding for Financial Inclusion Projects</title>
     <meta charset="utf-8">
     <meta name="author" content="Soethiha Soe" />
     <link href="libs/remark-css/default.css" rel="stylesheet" />
@@ -20,8 +20,8 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# Cross-border Funding for Financial Inclusion Projects
-## ⚔<br/>Data viz with n
+# Funding for Financial Inclusion Projects
+## ⚔<br/>Data viz with R
 ### Soethiha Soe
 ### 2018/06/09
 
@@ -53,8 +53,8 @@ Image credit: [Better than Cash Alliance](https://www.betterthancash.org/why-dig
 
 * The seven regions are Europe and Central Asia, East Asia and the Pacific, South Asia, Sub-Saharan Africa, Latin America and the Carribean, Middle East and North Africa, and Other Regions.
 
-<div id="htmlwidget-b18c69dfaf7c01325843" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-b18c69dfaf7c01325843">{"x":{"filter":"none","fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42"],[2011,2011,2011,2011,2011,2011,2011,2012,2012,2012,2012,2012,2012,2012,2013,2013,2013,2013,2013,2013,2013,2014,2014,2014,2014,2014,2014,2014,2015,2015,2015,2015,2015,2015,2015,2016,2016,2016,2016,2016,2016,2016],["Europe and Central Asia","East Asia and the Pacific","South Asia","Sub-Saharan Africa","Latin America and the Carribean","Middle East and North Africa","Other geographies","Europe and Central Asia","East Asia and the Pacific","South Asia","Sub-Saharan Africa","Latin America and the Carribean","Middle East and North Africa","Other geographies","Europe and Central Asia","East Asia and the Pacific","South Asia","Sub-Saharan Africa","Latin America and the Carribean","Middle East and North Africa","Other geographies","Europe and Central Asia","East Asia and the Pacific","South Asia","Sub-Saharan Africa","Latin America and the Carribean","Middle East and North Africa","Other geographies","Europe and Central Asia","East Asia and the Pacific","South Asia","Sub-Saharan Africa","Latin America and the Carribean","Middle East and North Africa","Other geographies","Europe and Central Asia","East Asia and the Pacific","South Asia","Sub-Saharan Africa","Latin America and the Carribean","Middle East and North Africa","Other geographies"],[5.72,2.6,5.72,3.38,3.38,1.56,3.64,7.54,2.61,5.51,4.06,3.19,2.03,4.06,9.3,3.1,5.27,4.65,3.1,2.17,3.41,9,2.7,4.8,4.2,2.7,2.4,4.2,8.84,5.1,3.74,5.44,3.74,2.72,4.42,8.88,5.18,4.07,6.66,4.07,2.96,5.18],[26,26,26,26,26,26,26,29,29,29,29,29,29,29,31,31,31,31,31,31,31,30,30,30,30,30,30,30,34,34,34,34,34,34,34,37,37,37,37,37,37,37]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Year<\/th>\n      <th>Geography<\/th>\n      <th>Region Funding<\/th>\n      <th>Global Funding<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":5,"columnDefs":[{"className":"dt-right","targets":[1,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[5,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-9e66bb3f5c68a6dfd867" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-9e66bb3f5c68a6dfd867">{"x":{"filter":"none","fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42"],[2011,2011,2011,2011,2011,2011,2011,2012,2012,2012,2012,2012,2012,2012,2013,2013,2013,2013,2013,2013,2013,2014,2014,2014,2014,2014,2014,2014,2015,2015,2015,2015,2015,2015,2015,2016,2016,2016,2016,2016,2016,2016],["Europe and Central Asia","East Asia and the Pacific","South Asia","Sub-Saharan Africa","Latin America and the Carribean","Middle East and North Africa","Other geographies","Europe and Central Asia","East Asia and the Pacific","South Asia","Sub-Saharan Africa","Latin America and the Carribean","Middle East and North Africa","Other geographies","Europe and Central Asia","East Asia and the Pacific","South Asia","Sub-Saharan Africa","Latin America and the Carribean","Middle East and North Africa","Other geographies","Europe and Central Asia","East Asia and the Pacific","South Asia","Sub-Saharan Africa","Latin America and the Carribean","Middle East and North Africa","Other geographies","Europe and Central Asia","East Asia and the Pacific","South Asia","Sub-Saharan Africa","Latin America and the Carribean","Middle East and North Africa","Other geographies","Europe and Central Asia","East Asia and the Pacific","South Asia","Sub-Saharan Africa","Latin America and the Carribean","Middle East and North Africa","Other geographies"],[5.72,2.6,5.72,3.38,3.38,1.56,3.64,7.54,2.61,5.51,4.06,3.19,2.03,4.06,9.3,3.1,5.27,4.65,3.1,2.17,3.41,9,2.7,4.8,4.2,2.7,2.4,4.2,8.84,5.1,3.74,5.44,3.74,2.72,4.42,8.88,5.18,4.07,6.66,4.07,2.96,5.18],[26,26,26,26,26,26,26,29,29,29,29,29,29,29,31,31,31,31,31,31,31,30,30,30,30,30,30,30,34,34,34,34,34,34,34,37,37,37,37,37,37,37]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Year<\/th>\n      <th>Geography<\/th>\n      <th>Region Funding<\/th>\n      <th>Global Funding<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":5,"columnDefs":[{"className":"dt-right","targets":[1,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[5,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 ---
 ## Data visualization - stacked area graph
 * We used a stacked area graph to visualize the change in the total amount of funding committed as well as the distribution for each geography from 2011 to 2016.  

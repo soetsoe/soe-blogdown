@@ -1,5 +1,5 @@
 ---
-title: final_project
+title: Funding for Financial Inclusion Projects
 author: Soethiha Soe
 date: '2018-06-10'
 ---
@@ -8,13 +8,11 @@ date: '2018-06-10'
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## DataViz of Internation Financial Inclusion Funding 
+The International Financial Inclusion Funding Dataset contains records of  major international funding for microfinance and financial inclusion projects.  The data was collected through surveys conducted by the [Consultative Group to Assist the Poor (CGAP)](http://www.cgap.org/about).  
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+In this data visualization exercise, we plot the trends in funding across geographies between the years 2011 to 2016.  The graphs and commentaries are embedded in the Xaringan slide below.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
+```{r slides}
 knitr::include_url("../../slides/final_slides.html#1")
-summary(cars)
 ```

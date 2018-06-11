@@ -1,6 +1,6 @@
 ---
 title: "Cross-border Funding for Financial Inclusion Projects"
-subtitle: "⚔<br/>Data viz with n"
+subtitle: "⚔<br/>Data viz with R"
 author: "Soethiha Soe"
 date: "2018/06/09"
 output:
