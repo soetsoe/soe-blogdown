@@ -30,11 +30,6 @@ background-image: url(https://btca-prod.s3.amazonaws.com/image/403/large.jpg?144
 background-position: 25% 85%
 background-size: 50%
 
-???
-
-Image credit: [Better than Cash Alliance](https://www.betterthancash.org/why-digital-payments)
-
----
 ##Introduction
 The International Financial Inclusion Funding Dataset contains records of  major international funding for microfinance and financial inclusion projects.  The data was collected through surveys conducted by the [Consultative Group to Assist the Poor (CGAP)](http://www.cgap.org/about)
 
