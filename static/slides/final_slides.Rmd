@@ -1,8 +1,8 @@
 ---
-title: "Presentation Ninja"
-subtitle: "⚔<br/>with xaringan"
-author: "Yihui Xie"
-date: "2016/12/12 (updated: `r Sys.Date()`)"
+title: "Cross-border Funding for Financial Inclusion Projects"
+subtitle: "⚔<br/>Data viz with R (in blogdownn"
+author: "Soethiha Soe"
+date: "2018/06/09"
 output:
   xaringan::moon_reader:
     lib_dir: libs
