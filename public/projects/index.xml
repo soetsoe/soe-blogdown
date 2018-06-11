@@ -12,25 +12,13 @@
     
     
     <item>
-      <title>final_project</title>
+      <title>Funding for Financial Inclusion Projects</title>
       <link>/projects/final-project/</link>
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/projects/final-project/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-knitr::include_url(&amp;quot;../../slides/final_slides.html#1&amp;quot;)summary(cars)## speed dist ## Min.</description>
-    </item>
-    
-    <item>
-      <title>A small project example : add yours !</title>
-      <link>/projects/small-project/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/small-project/</guid>
-      <description>Along with Ford Prefect, Dent barely escapes the Earth&amp;rsquo;s destruction as it is demolished to make way for a hyperspace bypass. Arthur spends the next several years, still wearing his dressing gown, helplessly launched from crisis to crisis while trying to straighten out his lifestyle.
- He rather enjoys tea, but seems to have trouble obtaining it in the far reaches of the galaxy.
- In time, he learns how to fly and carves a niche for himself as a sandwich-maker.</description>
+      <description>DataViz of Internation Financial Inclusion FundingThe International Financial Inclusion Funding Dataset contains records of major international funding for microfinance and financial inclusion projects. The data was collected through surveys conducted by the Consultative Group to Assist the Poor (CGAP).
+In this data visualization exercise, we plot the trends in funding across geographies between the years 2011 to 2016. The graphs and commentaries are embedded in the Xaringan slide below.</description>
     </item>
     
     <item>
@@ -39,8 +27,7 @@ knitr::include_url(&amp;quot;../../slides/final_slides.html#1&amp;quot;)summar
       <pubDate>Wed, 19 Aug 2015 20:29:37 -0700</pubDate>
       
       <guid>/projects/projects/</guid>
-      <description>In this theme, it is possible to add sections like a Projects one for example. You can add plenty of articles about your projects and a presentation page that will be displayed before the list. All is modulable, if you don&amp;rsquo;t want something.
-A Hollywood-funded film version, produced and filmed in the UK, was released in April 2005, and radio adaptations of the third, fourth, and fifth novels were broadcast from 2004 to 2005.</description>
+      <description>List of projects - more to come!</description>
     </item>
     
   </channel>

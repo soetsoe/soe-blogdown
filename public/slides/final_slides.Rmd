@@ -1,5 +1,5 @@
 ---
-title: "Cross-border Funding for Financial Inclusion Projects"
+title: "Funding for Financial Inclusion Projects"
 subtitle: "⚔<br/>Data viz with R"
 author: "Soethiha Soe"
 date: "2018/06/09"
@@ -46,7 +46,7 @@ Image credit: [Better than Cash Alliance](https://www.betterthancash.org/why-dig
 
 * The seven regions are Europe and Central Asia, East Asia and the Pacific, South Asia, Sub-Saharan Africa, Latin America and the Carribean, Middle East and North Africa, and Other Regions.
 
-```{r glimpse_data, eval=TRUE, echo = FALSE, message=FALSE, fig.height=4, fig.width=10}
+```{r glimpse_data, eval=TRUE, echo = FALSE, message=FALSE}
 
 funding <- read_csv("data/financial_inclusion.csv")
 #glimpse(funding)
