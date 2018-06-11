@@ -8,7 +8,6 @@ date: '2018-06-10'
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## DataViz of Internation Financial Inclusion Funding 
 The International Financial Inclusion Funding Dataset contains records of  major international funding for microfinance and financial inclusion projects.  The data was collected through surveys conducted by the [Consultative Group to Assist the Poor (CGAP)](http://www.cgap.org/about).  
 
 In this data visualization exercise, we plot the trends in funding across geographies between the years 2011 to 2016.  The graphs and commentaries are embedded in the Xaringan slide below.
