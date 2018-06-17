@@ -56,7 +56,7 @@ DT::datatable(funding, fillContainer = FALSE, options = list(pageLength = 5))
 ## Data visualization - stacked area graph
 * We used a stacked area graph to visualize the change in the total amount of funding committed as well as the distribution for each geography from 2011 to 2016.  
 
-```{r creat_plot_1, echo=FALSE, fig.align = "center", fig.height=6, fig.width=10, message=FALSE}
+```{r stacked_area_plot1, echo=FALSE, fig.align = "center", fig.height=6, fig.width=10, message=FALSE}
 
 #ggplot(funding, aes(x = Year, y = 'Region Funding')) + 
 #geom_column()
@@ -78,7 +78,7 @@ original_plot
 ## Improved graph
 We can improve the graph visualization by (1) using a color-blind (and projector) friendly color palette and (2) outlining each of the stacked areas.  
 
-```{r creat_plot_2, echo=FALSE, fig.align = "center", fig.height=6, fig.width=10, message=FALSE}
+```{r stacked_area_plot2, echo=FALSE, fig.align = "center", fig.height=6, fig.width=10, message=FALSE}
 library(RColorBrewer)
 
 improved_plot <- original_plot +
@@ -87,10 +87,6 @@ improved_plot <- original_plot +
 
 improved_plot
 ```
----
-## Exploring further
-A picture is worth a thousand words.  It's difficult to visualize where funding is being distributed based on lexical descriptions alone.  Let's take a look at where in the world fundings are going using a map plot!
-
 ---
 ## Interpreting the graph
 
@@ -119,6 +115,63 @@ A picture is worth a thousand words.  It's difficult to visualize where funding 
 
 * We can also use faceting with either one of the alternative options above.
 
+---
+## Same data, different visual - stackd bar chart
+```{r bar_chart, echo=FALSE, fig.align = "center", fig.height=6, fig.width=10, message=FALSE}
+
+#library(tidyverse)
+
+# make the plot
+ggplot(data, aes(x=years, y=geo_funding, fill = geos))+
+  geom_col()+
+  labs(x = "Year", y = "Funding (Billions U.S. Dollar)") +
+  ggtitle("Major Fundings for Microfinance and Financial Inclusion Projects")+
+  scale_fill_brewer(palette="Greens", breaks=rev(levels(data$geos)))
+```
+---
+## Same data, different visual - line plot by group
+```{r line_chart, echo=FALSE, fig.align = "center", fig.height=6, fig.width=10, message=FALSE}
+
+#library(tidyverse)
+
+# make the plot
+ggplot(data, aes(x=years, y=geo_funding, color = geos))+
+  geom_smooth()+
+  labs(x = "Year", y = "Funding (Billions U.S. Dollar)") +
+  ggtitle("Major Fundings for Microfinance and Financial Inclusion Projects")
+```
+---
+## Same data, different visual - line plot by group, faceted
+```{r line_facet_chart, echo=FALSE, fig.align = "center", fig.height=6, fig.width=10, message=FALSE}
+
+library(forcats)
+
+# make the plot
+ggplot(data, aes(x=as.factor(years), y=geo_funding, 
+                 color = fct_reorder2(geos, years, geo_funding),
+                 group = geos))+
+  geom_smooth(lwd=2)+
+  facet_wrap(~geos)+
+  labs(x = "Year", y = "Funding (Billions U.S. Dollar)") +
+  ggtitle("Major Fundings for Microfinance and Financial Inclusion Projects")
+
+```
+---
+## Same data, different visual - dumb bell plot
+```{r dumbbell_chart, echo=FALSE, fig.align = "center", fig.height=6, fig.width=10, message=FALSE}
+
+#filter data for 2011
+funding_2011 <- filter(data, years == 2011 | years == 2016)
+
+#glimpse(funding_2011)
+
+ggplot(funding_2011, aes(x = geo_funding, y = fct_rev(geos),
+                         color=years, group = geos))+
+  geom_line(size = 0.75)+
+  geom_point(size = 2.5)+
+  labs(x = "Funding (Billions U.S. Dollar)", y = "Geos") +
+  ggtitle("Major Fundings for Microfinance and Financial Inclusion Projects")
+```
 ---
 class: center, middle
 
