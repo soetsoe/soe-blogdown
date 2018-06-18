@@ -52,9 +52,17 @@ funding <- read_csv("data/financial_inclusion.csv")
 #glimpse(funding)
 DT::datatable(funding, fillContainer = FALSE, options = list(pageLength = 5))
 ```
+
 ---
+
+## Targeted audience
+
+* An individual or institutional investor gathering data on where in the world others are making microfinancing investments.  The investor may want to learn about which geos have experienced largest increased in funding over the past few years.
+---
+
 ## Data visualization - stacked area graph
-* We used a stacked area graph to visualize the change in the total amount of funding committed as well as the distribution for each geography from 2011 to 2016.  
+
+* We used a stacked area graph to show the evolution of the total amount of funding committed as well as the distribution for each geography from 2011 to 2016.
 
 ```{r stacked_area_plot1, echo=FALSE, fig.align = "center", fig.height=6, fig.width=10, message=FALSE}
 
@@ -98,13 +106,13 @@ improved_plot
 
 ---
 ## Presentation tips
-* Use annotation to overlay information that could be more useful in interpreting the results.
+* Annotate information that could be more useful in interpreting the results.
 
-* Include the dollar amount committed to each geo in 2011 and 2016 to show whether funding has increased or decreased
+* Point out the dollar amount committed to each geo in 2011 and 2016 to show whether funding has increased or decreased
 
-* Include the number of countries for each geo in the legend
+* Talk about the number of countries for each geo in the legend
 
-* Include annotation of the total number of projects funded each year
+* Talk about the total number of projects funded each year
 
 ---
 ## Potential variations of the graph
